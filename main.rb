@@ -5,9 +5,8 @@ get "/" do
 end
 
 get "/about" do
-	erb :about
+	erb(:about)
 end
-
 
 get "/contact" do
 	# "form goes here"
@@ -19,5 +18,6 @@ post "/contact_response" do
 	erb :response
 end
 
-james money
-gino
+get "/some_more_real_words" do
+	"hello"
+end
