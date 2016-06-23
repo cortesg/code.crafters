@@ -23,7 +23,9 @@ get "/some_more_real_words" do
 	"hello"
 end
 
-TESTING
-TESTING
-TESTING
-TESTING
+
+get james money !!!! GIONO
+money money party
+yay!!!!!
+THIS IS NOT RANDOM TEXT
+THIS IS FROM GINO
