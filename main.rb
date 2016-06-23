@@ -25,7 +25,9 @@ end
 
 
 get james money !!!! GIONO
-money money party
-yay!!!!!
-THIS IS NOT RANDOM TEXT
-THIS IS FROM GINO
+money moneydfasfasdkmf
+sadf
+askfd
+asdfk
+asdfa
+sdfkas
