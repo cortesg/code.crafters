@@ -19,4 +19,6 @@ post "/contact_response" do
 	erb :response
 end
 
-gino
+get "/real_words" do
+	"stuff"
+end
