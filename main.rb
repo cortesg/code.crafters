@@ -18,3 +18,6 @@ post "/contact_response" do
 	params.inspect
 	erb :response
 end
+
+james money
+gino
