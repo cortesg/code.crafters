@@ -5,9 +5,8 @@ get "/" do
 end
 
 get "/about" do
-	erb :about
+	erb(:about)
 end
-
 
 get "/contact" do
 	# "form goes here"
