@@ -17,17 +17,3 @@ post "/contact_response" do
 	params.inspect
 	erb :response
 end
-
-
-get "/some_more_real_words" do
-	"hello"
-end
-
-
-get james money !!!! GIONO
-money moneydfasfasdkmf
-sadf
-askfd
-asdfk
-asdfa
-sdfkas
