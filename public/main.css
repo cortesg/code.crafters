@@ -8,6 +8,9 @@ form {
 	padding: 30px;
 	overflow: hidden;
 }
+.response {
+	text-align: center;
+}
 #SSS{
 	border: 1px solid black;
 }
