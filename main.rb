@@ -13,7 +13,7 @@ get "/contact" do
 	erb :contact
 end
 
-post "/contact_response" do
+post "/response" do
 	params.inspect
 	erb :response
 end
