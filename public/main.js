@@ -49,4 +49,3 @@ setInterval(textChange,3000)
 //   var imgModal = bodyDiv.innerHTML = "<div class='overlay'><img src='"+ imgUrl +"'></div>"
 //   console.log(imgModal)
 // }
-
