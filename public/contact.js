@@ -1,7 +1,5 @@
 function formclock() {
 	var d = new Date()
-	var hours = d.getHours()
-	var min = d.getMinutes()
 	var sec = d.getSeconds()
 
 
@@ -22,6 +20,23 @@ function formclock() {
 setInterval(formclock, 100)
 formclock()
 
+
+//when clicking submit, it validates
+document.getElementById("formsubmit").onclick = function validate() {
+		//checks to see if email has an '@' symbol 
+		var Eform = document.getElementById('formemail').value
+		if (Eform.indexOf('@') == -1) {
+	      alert("Please provide a valid email.");
+	      return false; //forces to stay on page
+		}
+		//checks to see that text isn't blank
+		var Bform = document.getElementById('formbody').value
+		if (Bform==null || Bform=="") {
+	      alert("Please fill out text form.");
+	      return false;
+	    }
+	
+}
 
 
 // 			//6:00am-5:59pm WHITE SUBMIT BACKGROUND AT DAYTIME

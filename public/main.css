@@ -57,6 +57,7 @@ width: 300px;
 	margin-top: 10px;
 	float: left;
 	clear: left;
+}
 
 header{
 	width: 100%;
@@ -134,7 +135,7 @@ a:hover{
 }
 
 #logo_title{
-	font-family: "Sk-Modernist";
+	font-family: helvetica;
 	font-size: 16px;
 	/*width: 50%;*/
 	color: #fff;
