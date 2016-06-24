@@ -5,9 +5,8 @@ get "/" do
 end
 
 get "/about" do
-	erb :about
+	erb(:about)
 end
-
 
 get "/contact" do
 	# "form goes here"
@@ -18,5 +17,4 @@ post "/contact_response" do
 	params.inspect
 	erb :response
 end
-
 
