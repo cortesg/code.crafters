@@ -4,8 +4,8 @@
 		 <meta charset="utf-8">
 		<title>Index</title>	
 		<link rel="stylesheet" href="main.css">
-		<script type="text/javascript" src="main.js"></script>
 		<script src="https://ajax.googleapis.com/ajax/libs/jquery/1.12.2/jquery.min.js"></script>
+		<script type="text/javascript" src="main.js"></script>
 	</head>
 	<body>
 		<nav>
@@ -25,36 +25,27 @@
 		</header>
 
   
-        <div id="side">
-            <div id="side_wrapper">
-               <a href="">
-                    <div class="side_items">
-                        <h2>about</h2>
-                    </div>
-                </a> 
-                <a href="">
-                    <div class="side_items">
-                        <h2>portfolio</h2>
-                    </div>
-                </a> 
-                <a href="">
-                    <div class="side_items">
-                        <h2>contact</h2>
-                    </div>
-                </a> 
-
-                </div>
-        </div>
-
-
-	<!-- 	<p id="main_text">
-			We are a creative agency <br>
-			that codes with
-		</p> -->
-		
-	<!-- 	<footer>
-				<p id="footer_text"> coded in NYC </p>
-		</footer> -->
+   <%= yield %>
+   
+    <div id="side">
+      <div id="side_wrapper">
+      	<a href="">
+        	<div class="side_items">
+            <h2>about</h2>
+          </div>
+        </a> 
+        <a href="">
+          <div class="side_items">
+            <h2>portfolio</h2>
+          </div>
+        </a> 
+        <a href="">
+          <div class="side_items">
+            <h2>contact</h2>
+          </div>
+        </a> 
+      </div>
+    </div>
 	</body>
 	
 </html>

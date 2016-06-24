@@ -1,7 +1,7 @@
 require "sinatra"
 
 get "/" do
-	erb :index
+	erb(:index)
 end
 
 get "/about" do
@@ -10,11 +10,11 @@ end
 
 get "/contact" do
 	# "form goes here"
-	erb :contact
+	erb(:contact)
 end
 
 post "/response" do
 	params.inspect
-	erb :response
+	erb(:response)
 end
 
