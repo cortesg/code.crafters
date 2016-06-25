@@ -156,10 +156,17 @@ a:hover{
 	color: red;
 }
 
-.port_img {
-	width: 600px;
-	display: block;
+#port_imgs {
+	width: 80%;
+	margin-left: 10%;
 }
+
+.anchor {
+	display: block;
+	width: 800px;
+	padding: 50px;
+}
+
 /* -------------------------Footer Section ---------------------------*/
 
 #footer_text{
