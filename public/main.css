@@ -152,6 +152,14 @@ a:hover{
 	margin-top: 13%;
 }
 
+#textChanged {
+	color: red;
+}
+
+.port_img {
+	width: 600px;
+	display: block;
+}
 /* -------------------------Footer Section ---------------------------*/
 
 #footer_text{
