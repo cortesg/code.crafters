@@ -37,7 +37,16 @@ function textChange() {
 }
 setInterval(textChange,3000)
 
+// Modals  -----------Not working why!!!!!!!!!!! T_T
 
-// 2. making light boxes of the image. 
+// var port_img = document.getElementById("port_imgs")
+// var anchor = document.getElementsByClassName("anchor") 
+// var bodyDiv = document.getElementsByTagName("body")[0]
+// var image = document.getElementsByTagName("img")
+// var imgUrl = port_img.getAttribute("data-imgurl")
 
+// port_img.onclick= function() {
+//   var imgModal = bodyDiv.innerHTML = "<div class='overlay'><img src='"+ imgUrl +"'></div>"
+//   console.log(imgModal)
+// }
 
