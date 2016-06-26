@@ -11,7 +11,7 @@ $(document).ready(function(){
 
 // -----------------------Index Page --------------------
 // Text Changes and color change according to the words
-var textArry = [".Passion", ".Joy", ".People", ".Design", ".Confidence"]
+var textArry = [".passion", ".joy", ".people", ".design", ".confidence"]
 var texttt = document.getElementById("textChanged")
 var index = 1
 
@@ -28,15 +28,15 @@ function textChange() {
 		index = 2
 	}
 
-	if (colorChange == ".Passion") {
+	if (colorChange == ".passion") {
 		texttt.style.color = "red"
-	} else if (colorChange == ".Joy") {
+	} else if (colorChange == ".joy") {
 		texttt.style.color = "mediumpurple"
-	} else if (colorChange == ".People") {
+	} else if (colorChange == ".people") {
 		texttt.style.color = "green"
-	} else if (colorChange == ".Design") {
-		texttt.style.color = "yellow" 
-	} else if (colorChange == ".Confidence") {
+	} else if (colorChange == ".design") {
+		texttt.style.color = "#f7da0b" 
+	} else if (colorChange == ".confidence") {
 		texttt.style.color = "blue"
 	}
 }

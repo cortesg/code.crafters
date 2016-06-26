@@ -5,7 +5,6 @@
         <title>Index</title>    
         <link rel="stylesheet" href="main.css">
         <script src="https://ajax.googleapis.com/ajax/libs/jquery/2.2.2/jquery.min.js"></script>
-        <script type="text/javascript" src="main.js"></script>
     </head>
     <body>
      <header>
@@ -14,9 +13,8 @@
             </div>
             <div class ="button" id="movedown">
                 <p id="x">X<p>
-        </div>  
+            </div>  
      </header>
-
 
     <div id="side_menu">   
          <div id="side_wrapper">
@@ -25,20 +23,24 @@
                         <h2>about</h2>
                     </div>
                 </a> 
-                <a href="/index">
+                <a href="/">
                     <div class="side_items">
                         <h2>portfolio</h2>
                     </div>
                 </a> 
-                <a href="contact">
+                <a href="/contact">
                     <div class="side_items">
                         <h2>contact</h2>
                     </div>
                 </a> 
             </div>
     </div>
-        <footer>
-           <span id="footer_text">website by Alonso / Cortes / Hwang</span>
-        </footer>
-	</body>
+
+         <%=yield%>
+
+    <footer>
+       <span id="footer_text">website by Alonso / Cortes / Hwang</span>
+    </footer>
+     <script type="text/javascript" src="main.js"></script>
+    </body>
 </html>
