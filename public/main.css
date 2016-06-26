@@ -14,6 +14,79 @@ body{
 	z-index: 2;
 	position: absolute;
 }
+/*------------------------Email Section-----------------------------*/
+form{
+	width: 300px;
+	/*border: 1px solid black;*/
+	margin: 0px auto;
+	padding: 30px;
+	overflow: hidden;
+}
+.response {
+	text-align: center;
+}
+#SSS{
+	border: 1px solid black;
+}
+#sendemail {
+	text-align: center;
+}
+#formname {
+/*display: inline-block;*/
+/*margin-left: 50px;*/
+float: left;
+clear: left;
+width: 300px;
+
+}
+
+#formemail {
+/*display: inline-block;*/
+margin-top: 10px;
+/*margin-left: 50px;*/
+clear: left;
+float: left;
+width: 300px;
+
+}
+#formsubject {
+/*display: inline-block;*/
+margin-top: 10px;
+/*margin-left: 50px;*/
+clear: left;
+float: left;
+width: 300px;
+
+
+}
+#formbody {
+/*display: inline-block;*/
+margin-top: 10px;
+float: left;
+clear: left;
+height: 200px;
+width: 300px;
+vertical-align: top;
+
+/*eight: 100px;*/
+}
+
+#formsubmit {
+	margin-top: 10px;
+	float: left;
+	clear: left;
+}
+
+header {
+	width: 100%;
+	height: 50px;
+	background-color: #ccc;
+}
+
+* {
+	margin: 0px;
+	padding: 5px;
+}
 
 #logo_title{
 	font-family: "Sk-Modernist";
@@ -42,6 +115,8 @@ body{
 	font-family: Helvetica;
 	margin-left: 20px;
 	margin-top: 8px;
+    right: -1000px;
+    transition: 1s;
 }
 /*-----end BUTTON "X" -------------*/
 
@@ -59,7 +134,9 @@ body{
 	z-index: 1;
 }
 
+
 #side_wrapper{
+	background-color: #ccc;
 	width: 80%;
 	height: 80px;
 	margin: 0 auto;
@@ -94,9 +171,25 @@ a:hover{
 }
 
 a:visited{
-	color: #fff;
+	color: #fff;	
 }
 
+/* ---------------------Logo ---------------------*/
+#logo {
+	background-color: #000;
+	margin-top: 10px;
+	width: 160px;
+	height: 40px;
+	text-align: center;
+	float: left;
+}
+
+#logo_title{
+	font-family: "Andale Mono";
+	font-size: 16px;
+	width: 50%;
+	color: #fff;
+}
 /*-----end MENU LINKS -------------*/
 
 /*-----start FOOTER -------------*/
@@ -107,6 +200,34 @@ footer{
 	width: 100%;
 	height: 30px;
 }
+
+/* --------------------------Index Main Text Section -----------------*/
+#main_text{
+	font-size: 60px;
+	font-family: "Andale Mono";
+	width: 80%;
+	height: 200px;
+	/*border: 1px solid black;*/
+	margin-left: 10%;
+	margin-top: 13%;
+}
+
+#textChanged {
+	color: red;
+}
+
+#port_imgs {
+	width: 80%;
+	margin-left: 10%;
+}
+
+.anchor {
+	display: block;
+	width: 800px;
+	padding: 50px;
+}
+
+/* -------------------------Footer Section ---------------------------*/
 
 #footer_text{
 	font-size: 12px;	
