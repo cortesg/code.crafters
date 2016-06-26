@@ -2,6 +2,11 @@ $(document).ready(function(){
 	$('#nav-icon1,#nav-icon2,#nav-icon3,#nav-icon4').click(function(){
 		$(this).toggleClass('open');
 	});
+
+	$('#movedown').click(function() {
+        $('#side_menu').slideToggle("slow");
+    }); 
+
 });
 
 // -----------------------Index Page --------------------
@@ -39,19 +44,8 @@ setInterval(textChange,3000)
 
 // Modals  -----------Not working why!!!!!!!!!!! T_T
 
-// var port_img = document.getElementById("port_imgs")
-// var anchor = document.getElementsByClassName("anchor") 
-// var bodyDiv = document.getElementsByTagName("body")[0]
-// var image = document.getElementsByTagName("img")
-// var imgUrl = port_img.getAttribute("data-imgurl")
-
-// port_img.onclick= function() {
-//   var imgModal = bodyDiv.innerHTML = "<div class='overlay'><img src='"+ imgUrl +"'></div>"
-//   console.log(imgModal)
-// }
-
 $(document).ready(function() {
-	$("a").click(function(event) {
+	$(".anchor").click(function(event) {
 		var imgUrl = $(event.target).data("imgurl")
 		$("body").append("<div class='overlay'> <img src='"+ imgUrl +"'> </div>")
 	}) 
@@ -61,4 +55,6 @@ $(document).ready(function() {
 		$(event.target).closest(".overlay").hide()
 	})
 })
+
+// }
 
