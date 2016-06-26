@@ -1,6 +1,5 @@
 body{
 	margin: 0px;
-	margin-top: -4%;
 	padding: 0px;
 }
 
@@ -33,7 +32,26 @@ form{
 	margin: 0px auto;
 	padding: 30px;
 	overflow: hidden;
+	padding-top: 10%;
 }
+
+h1{
+	padding-top: 100px;
+	font-family: "Andale Mono";
+
+
+}
+.input_t {
+	
+	border-top:none ;
+	border-right:none ;
+	border-left:none ;
+	border-bottom: 1px solid black;
+	font-family: "Andale Mono";
+	height: 20px;
+}
+
+
 .response {
 	text-align: center;
 }
@@ -82,6 +100,8 @@ vertical-align: top;
 }
 
 #formsubmit {
+	width: 100px;
+	height: 30px;
 	margin-top: 10px;
 	float: left;
 	clear: left;
@@ -127,11 +147,11 @@ vertical-align: top;
 
 
 #side_wrapper{
-	background-color: #ccc;
+	/*background-color: #ccc;*/
 	width: 80%;
 	height: 80px;
 	margin: 0 auto;
-	margin-top: 15%;
+	margin-top: 22%;
 }
 
 .side_items{
@@ -171,13 +191,14 @@ footer{
 
 /* --------------------------Index Main Text Section -----------------*/
 #main_text{
+	margin-left: 15%;
+	padding-top: 150px;
+	width: 90%;
+}
+
+#main_text > p {
 	font-size: 55px;
 	font-family: "Andale Mono";
-	width: 90%;
-	height: 200px;
-	/*border: 1px solid black;*/
-	margin-left: 15%;
-	/*margin-top: 13%;*/
 }
 
 #textChanged {
