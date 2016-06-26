@@ -155,7 +155,7 @@ vertical-align: top;
 }
 
 .side_items{
-	font-family: "Aaux ProBold SC";
+	font-family: "Andale Mono";
 	border: 2px solid white;
 	float: left;
 	width: 21%;
@@ -170,15 +170,15 @@ vertical-align: top;
 	background-color: #fff;
 	color: #000;
 }
-/*
+
 a{
 	color: #fff;
 	letter-spacing: 1px;
 	transition: all .4s ease-in;
 }
 a:hover{
-	
-}*/
+	letter-spacing: 3px;
+}
 
 /*-----start FOOTER -------------*/
 footer{
@@ -269,18 +269,18 @@ footer{
 }
 
 h3{
-	font-family: "Sk-Modernist";
+	font-family: "Andale Mono";
 }
 
 p{
 	font-size: 15px;
-	font-family: "Sk-Modernist";
+	font-family: "Andale Mono";
 	line-height: 200%;
 }
 
 .letters{
 	font-size: 80px;	
-	font-family: "Aaux ProBold SC";
+	font-family: "Andale Mono";
 	display: inline-block;
 	letter-spacing: 5px;
 }
