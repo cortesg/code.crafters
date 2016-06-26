@@ -50,3 +50,15 @@ setInterval(textChange,3000)
 //   console.log(imgModal)
 // }
 
+$(document).ready(function() {
+	$("a").click(function(event) {
+		var imgUrl = $(event.target).data("imgurl")
+		$("body").append("<div class='overlay'> <img src='"+ imgUrl +"'> </div>")
+	}) 
+
+	$("body").on("click", "img", function(event) {
+		$(event.target).hide()
+		$(event.target).closest(".overlay").hide()
+	})
+})
+

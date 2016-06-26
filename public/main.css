@@ -114,13 +114,13 @@ header {
 	text-align: center;
 	float: right;
 }
-
+/*
 a{
 	color: #000;
 }
 a:hover{
 	
-}
+}*/
 
 /* ---------------------Logo ---------------------*/
 #logo {
@@ -167,6 +167,25 @@ a:hover{
 	padding: 50px;
 }
 
+.overlay {
+	height: 100%;
+	width: 100%
+	z-index: 1;
+	background-color: darkgrey;
+	opacity: 0.6;
+	position: absolute;
+	top: 0;
+	left: 0;
+}
+
+.overlay > img {
+	position: absolute;
+	left: 50%;
+	top: 50%;
+	cursor: pointer; /* what is this? */ 
+	transform: translate(-50%, -50%);
+  z-index: 1000000;;    /* what is this? */
+}
 /* -------------------------Footer Section ---------------------------*/
 
 #footer_text{
