@@ -120,7 +120,6 @@ footer{
 
 
 /*-----start ABOUT -------------*/
-
 #about_left{
 	margin-top: 15%;
 	width: 35%;
@@ -136,11 +135,9 @@ footer{
 	float: right;
 }
 
-
 h3{
 	font-family: "Sk-Modernist";
 }
-
 
 p{
 	font-size: 15px;
