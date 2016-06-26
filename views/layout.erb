@@ -1,84 +1,44 @@
 <!DOCTYPE html>
 <html>
-	<head>
-		 <meta charset="utf-8">
-		<title>Index</title>	
-		<link rel="stylesheet" href="main.css">
-		<script src="https://ajax.googleapis.com/ajax/libs/jquery/1.12.2/jquery.min.js"></script>
-	</head>
-	<body>
-		<nav>
-			<ul>
-				<li><a href="/about">About</a></li>
-				<li><a href="/">Portfolio</a></li>
-				<li><a href="/contact">Contact</a></li>
-			</ul>
-		</nav>
+    <head>
+         <meta charset="utf-8">
+        <title>Index</title>    
+        <link rel="stylesheet" href="main.css">
+        <script src="https://ajax.googleapis.com/ajax/libs/jquery/2.2.2/jquery.min.js"></script>
+        <script type="text/javascript" src="main.js"></script>
+    </head>
+    <body>
+     <header>
+           <div id="logo">
+            <div id="logo_title">code_crafters</div>
+            </div>
+            <div class ="button" id="movedown">
+                <p id="x">X<p>
+        </div>  
+     </header>
 
-		<header>
-			<div id="logo">
-				<div id="logo_title">code_crafters</div>
-			</div>
-			<div id="button_menu">
-			</div>
-		</header>
 
-  
-<<<<<<< 251a441f9e6180cee21edac295e907c86e2ef890
-   <%= yield %>
-   
-    <div id="side">
-      <div id="side_wrapper">
-      	<a href="">
-        	<div class="side_items">
-            <h2>about</h2>
-          </div>
-        </a> 
-        <a href="">
-          <div class="side_items">
-            <h2>portfolio</h2>
-          </div>
-        </a> 
-        <a href="">
-          <div class="side_items">
-            <h2>contact</h2>
-          </div>
-        </a> 
-      </div>
-    </div>
-=======
-        <div id="side">
-            <div id="side_wrapper">
-               <a href="">
+    <div id="side_menu">   
+         <div id="side_wrapper">
+               <a href="/about">
                     <div class="side_items">
                         <h2>about</h2>
                     </div>
                 </a> 
-                <a href="">
+                <a href="/index">
                     <div class="side_items">
                         <h2>portfolio</h2>
                     </div>
                 </a> 
-                <a href="">
+                <a href="contact">
                     <div class="side_items">
                         <h2>contact</h2>
                     </div>
                 </a> 
-
-                </div>
-        </div>
-
-<%= yield %>
-		<p id="main_text">
-			We are a creative agency <br>
-			that codes with
-		</p>
-		
-		<footer>
-				<p id="footer_text"> coded in NYC </p>
-		</footer>
->>>>>>> contact page basic features ready
+            </div>
+    </div>
+        <footer>
+           <span id="footer_text">website by Alonso / Cortes / Hwang</span>
+        </footer>
 	</body>
-	<script type="text/javascript" src="main.js"></script>
-	
 </html>
