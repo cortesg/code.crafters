@@ -40,7 +40,7 @@ function textChange() {
 		texttt.style.color = "blue"
 	}
 }
-setInterval(textChange,3000)
+setInterval(textChange,2000)
 
 // Modals  -----------Not working why!!!!!!!!!!! T_T
 
