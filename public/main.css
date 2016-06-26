@@ -188,7 +188,7 @@ footer{
 	width: 80%;
 	margin-left: 10%;
 	margin-top: 20%;
-	background-color: #ccc;
+	/*background-color: #ccc;*/
 }
 
 .anchor {
@@ -210,15 +210,15 @@ footer{
 	left: 0;
 }
 
-img {
+.overlay > img{
 	position: absolute;
 	left: 50%;
 	top: 50%;
-	cursor: pointer; /* what is this? */ 
+	cursor: pointer;  
 	transform: translate(-50%, -50%);
-  z-index: 1000000;;    /* what is this? */
+  z-index: 1000000;;
 }
-/* -------------------------Footer Section ---------------------------*/
+/* -------------------------Footer Section ---------------------------
 
 #footer_text{
 	font-size: 12px;	
